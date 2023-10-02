@@ -110,6 +110,7 @@ body::before {
     width: 100%;
     position: absolute;
     top: 300px;
+    /* bottom:300px; */
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
