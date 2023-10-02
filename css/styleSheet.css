@@ -3,31 +3,25 @@
 @import url(https://fonts.cdnfonts.com/css/falling-sky);
 
 body {
-    background-color: #2d3250;
-    background-image: url(../images/background.png);
-    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
 }
 
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-}
+
 
  /*to change the darkness of the backgroun*/
 
 
 /* Navigation bar */
 .navbar {
+    position: fixed;
+    top: 0;
     letter-spacing: 4px;
     font-size: small;
     font-family: "Cavilant";
-    width: 99%;
-    margin: auto;
+    width: 100%;
     padding: 20px 0;
     display: flex;
     align-items: center;
@@ -35,6 +29,10 @@ body::before {
     background-color: transparent;
     box-shadow: 1px 4px 20px rgb(0, 0, 0);
 
+}
+
+.navbar img{
+    width: 10%;
 }
 
 .navbar ul .navItem {
@@ -71,7 +69,6 @@ body::before {
 }
 
 .dropdown-content {
-    z-index: 1;
     display: none;
     position: absolute;
     background-color: black;
@@ -106,25 +103,26 @@ body::before {
     margin-left: 100px;
 }
 
-.content {
-    width: 100%;
-    position: absolute;
-    top: 300px;
-    /* bottom:300px; */
-    transform: translateY(-50%);
-    text-align: center;
+.header {
+    background-color: #2d3250;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.653), rgba(117, 19, 93, 0.84)), url(../images/background.png);
+    background-size: cover;
+    height: 700px;
     color: #fff;
-    min-height: 100px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.content h1 {
+.header h1 {
     font-family: "leky calgria";
     font-size: 30px;
     letter-spacing: 4px;
 }
 
-.content p {
+.header p {
+    text-align: center;
     font-size: 15px;
     font-family: "falling sky";
 }
@@ -168,3 +166,120 @@ button:hover {
     border: none;
 }
 
+
+
+
+footer {
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+    background: #252525;
+    min-height: 100px;
+    /* padding: 20px 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+footer .menu li {
+    list-style: none;
+}
+
+footer .menu li a {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+footer .menu li a:hover {
+    opacity: 1;
+}
+
+.footerText p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    text-align: center;
+    /* margin-top: 15px; */
+    /* margin-bottom: 10px; */
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .wave {
+    position: absolute;
+    top: -90%;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../images/wave.png);
+    background-size: 1000px 100px;
+}
+
+footer .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+footer .wave#wave2 {
+    z-index: 999;
+    opacity: 0.4;
+    bottom: 0px;
+    animation: animateWave_02 4s linear infinite;
+}
+footer .wave#wave3 {
+    z-index: 998;
+    opacity: 0.7;
+    bottom: 0px;
+    animation: animateWave_02 3s linear infinite;
+}
+footer .wave#wave4 {
+    z-index: 997;
+    opacity: 0.5;
+    bottom: 0px;
+    animation: animateWave 3s linear infinite;
+}
+@keyframes animateWave{
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
+}
+@keyframes animateWave_02{
+    0%
+    {
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}
+
+
+
+
+
+.something{
+    border: rgb(255, 0, 0) 5px solid;
+    height: 1500px;
+}
