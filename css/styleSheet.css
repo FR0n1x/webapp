@@ -6,9 +6,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #2d3250;
+    background-color: #1b1a17;
 }
- /*to change the darkness of the backgroun*/
+
+/*to change the darkness of the backgroun*/
 
 
 /* Navigation bar */
@@ -20,16 +21,16 @@ body {
     font-size: small;
     font-family: "Cavilant";
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: transparent;
-    /* box-shadow: 1px 4px 20px rgb(0, 0, 0); */
+    gap: 400px;
+    background-color: #1b1a17;
+    box-shadow: 1px 4px 20px rgb(0, 0, 0);
 
 }
 
-.navbar img{
+.navbar img {
     width: 10%;
 }
 
@@ -69,10 +70,10 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: black;
+    background-color: transparent;
     min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
-    
+    box-shadow: 0px 8px 16px 0px rgba(75, 75, 75, 0.493);
+
 }
 
 .dropdown-content a {
@@ -102,7 +103,7 @@ body {
 }
 
 .header {
-    clip-path: polygon(0 0 , 0 100% , 100% 85% , 100% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 0);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.784), rgba(20, 20, 20, 0.307)), url(../images/background.png);
     background-attachment: fixed;
     background-size: cover;
@@ -168,6 +169,6 @@ button:hover {
 
 
 
-.something{
+.something {
     height: 1500px;
 }
