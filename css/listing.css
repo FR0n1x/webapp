@@ -22,16 +22,10 @@
     width: 35%;
 }
 
-
-.list-containder:nth-child(4){
+.list-containder .house:last-child , .list-containder .house:nth-last-child(2){
     border-bottom: 0px;
-    width: 35%;
 }
 
-.list-containder:nth-child(5){
-    border-bottom: 0px;
-    width: 35%;
-}
 .house-img img{
     width: 100%;
 }

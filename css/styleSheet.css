@@ -167,8 +167,48 @@ button {
 }
 
 
+.WhatWeDo{
+    padding: 0 0 100px 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.784), rgba(20, 20, 20, 0.307)), url(../images/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.WhatWeDo p{
+    font-family: "Cavilant";
+    font-size: 3.6em;
+    font-weight: 900;
+}
+
+.WhatWeDo .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.WhatWeDo .container .service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    gap: 10px;
+}
+
+.WhatWeDo .container .service .icon img{
+    width: 100px;
+}
+
+.WhatWeDo .container .service .title{
+    font-weight: 600;
+    font-size: 1.5em;
+}
 
 
 .something {
-    height: 1500px;
+    height: 500px;
 }
