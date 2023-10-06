@@ -6,7 +6,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1b1a17;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.784), rgba(20, 20, 20, 0.307)), url(../images/background.png);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* 1b1a17 */
