@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a{
@@ -38,6 +39,10 @@ nav .text img{
 
 
 
+
+.body{
+    display: flex;
+}
 
 
 .SideContainer {
@@ -81,4 +86,51 @@ nav .text img{
 
 .SideContainer .ElementContainer a img{
     width: 35px;
+}
+
+
+
+
+
+.MainContainer{
+    width: 80%;
+    height: 90vh;
+    background-color: aliceblue;
+}
+
+.MainContainer .dashboard{
+    margin: 25px 30px;
+}
+
+.MainContainer .dashboard .CardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.MainContainer .dashboard .CardContainer .Card{
+    width: 20%;
+    padding: 30px 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+    background: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.355);
+}
+
+.MainContainer .dashboard .CardContainer .Card .image img{
+    width: 50px;
+}
+
+.MainContainer .dashboard .CardContainer .Card .text{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.MainContainer .dashboard .CardContainer .Card .count{
+    font-size: 2em;
+    font-weight: 400;
+    align-self: flex-end;
 }
