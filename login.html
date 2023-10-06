@@ -1,0 +1,76 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="web videos\favicon.ico"/>
+  <title>SwiftPay Online Banking </title>
+
+  <link rel="stylesheet" href="css\login.css">
+  <link rel="stylesheet" href="/css/styleSheet.css">
+  
+</head>
+
+<body>
+
+    <div class="navbar">
+        <img src="images/logo.png" class="logo">
+    
+        <ul>
+            <li class="navItem"><a href="#">Home</a> </li>
+            <li class="navItem"><a href="#">About</a> </li>
+            <li class="navItem"><a href="#">Contact</a> </li>
+            <li class="navItem"><a href="#">Properties</a> </li>
+            <!-- <li><a href="#">login</a> </li> -->
+            <li class="dropdown">
+                <button class="dropbtn">Profile</button>
+                <div class="dropdown-content">
+                    <a href="#">Preferences</a>
+                    <a href="#">My Properties</a>
+                    <a href="#">Log Out</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+<!--Frist we have to creat registration form-->
+<section>
+  
+<div class="login-box">
+  <form action="login.php" method="post"> 
+    <h2>Login</h2>
+    <div class="input-box">
+      <span class="icon"><ion-icon name="mail"></ion-icon></span>
+      <input type="email"  id="email" name="email" required>
+      <label>Email</label>
+    </div>
+
+    <div class="input-box">
+      <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+      <input type="password" id="password" name="password" required>
+      <label>Password</label>
+    </div>
+
+    
+
+    <div class="remember-forgot">
+       <label><input type="checkbox">Remember me</label>
+       <a href="pwForget.html">Forgot Password?</a>
+    </div>
+
+    <button name="login" id="login">Login</button>
+    <div class="register-link">
+      <p>Don't have an account? <a href="create.php">Register</a></p>
+    </div>
+   
+  </form>
+  
+</div>
+</section>
+
+</body>
+</html>
+
