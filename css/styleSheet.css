@@ -114,7 +114,7 @@ body {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.784), rgba(20, 20, 20, 0.307)), url(../images/background.png);
     background-attachment: fixed;
     background-size: cover;
-    height: 650px;  
+    height: 650px;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -175,7 +175,7 @@ button {
 }
 
 
-.CardSection{
+.CardSection {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.784), rgba(20, 20, 20, 0.307)), url(../images/background.png);
     background-attachment: fixed;
     background-size: cover;
@@ -186,7 +186,7 @@ button {
     justify-content: space-around;
 }
 
-.CardSection .CardContainer{
+.CardSection .CardContainer {
     /* background-color: #1b1a17; */
     border-top: #ffffff solid 1px;
     border-bottom: #ffffff solid 1px;
@@ -197,7 +197,7 @@ button {
     justify-content: space-around;
 }
 
-.CardSection .CardContainer .card{
+.CardSection .CardContainer .card {
     /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.784), rgba(20, 20, 20, 0.307)), url(../images/background.png);
     background-attachment: fixed; */
 
@@ -213,24 +213,24 @@ button {
     gap: 15px;
 }
 
-.CardSection .CardContainer .card:nth-child(1){
+.CardSection .CardContainer .card:nth-child(1) {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(20, 20, 20, 0.6));
 }
 
-.CardSection .CardContainer .card:nth-child(2){
+.CardSection .CardContainer .card:nth-child(2) {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(20, 20, 20, 0.6));
 }
 
-.CardSection .CardContainer .card:nth-child(3){
+.CardSection .CardContainer .card:nth-child(3) {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(20, 20, 20, 0.6));
 }
 
-.CardSection .CardContainer .card .title{
+.CardSection .CardContainer .card .title {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2em;
 }
 
-.CardSection .CardContainer .card .count{
+.CardSection .CardContainer .card .count {
     font-size: 2.5em;
     font-weight: 700;
 }
@@ -238,7 +238,7 @@ button {
 
 
 
-.WhatWeDo{
+.WhatWeDo {
     padding: 0px 0 100px 0;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.784), rgba(20, 20, 20, 0.307)), url(../images/background.png);
     background-attachment: fixed;
@@ -250,18 +250,18 @@ button {
     color: white;
 }
 
-.WhatWeDo p{
+.WhatWeDo p {
     font-family: "Cavilant";
     font-size: 3.6em;
     font-weight: 900;
 }
 
-.WhatWeDo .container{
+.WhatWeDo .container {
     display: flex;
     justify-content: space-around;
 }
 
-.WhatWeDo .container .service{
+.WhatWeDo .container .service {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -270,11 +270,11 @@ button {
     gap: 10px;
 }
 
-.WhatWeDo .container .service .icon img{
+.WhatWeDo .container .service .icon img {
     width: 100px;
 }
 
-.WhatWeDo .container .service .title{
+.WhatWeDo .container .service .title {
     font-weight: 600;
     font-size: 1.5em;
 }
@@ -282,6 +282,6 @@ button {
 
 
 
-.something2{
+.something2 {
     height: 500px;
 }
