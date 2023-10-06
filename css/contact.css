@@ -60,7 +60,7 @@ section h2 {
     grid-template-columns: 40% 60%;
     gap: 4rem;
     height: 30rem;
-    margin: 7rem auto;
+    margin: 8rem auto;
     border-radius: 1rem;
 
     -webkit-border-radius: 1rem;
