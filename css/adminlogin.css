@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: white;
+}
+
+form{
+    border-radius: 15px;
+    background-color: rgb(37, 128, 207);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form >  * {
+    margin: 25px 0;
+}
+
+form .formTitle p{
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0;
+}
+
+form .formField{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+form .formField span{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+form .formField input{
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in-out all;
+}
+
+form .formField input:focus{
+    padding: 5px 15px;
+}
+
+form button{
+    background: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    box-shadow: 1px 5px 5px black ;
+}
+
+form button:active{
+    box-shadow:none;
+}
