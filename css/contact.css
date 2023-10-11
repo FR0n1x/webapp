@@ -209,3 +209,7 @@ a {
 .contactRight h1 {
     color: #F3F4F9;
 }
+
+::placeholder {
+    color:  #F3F4F9;
+}
