@@ -3,13 +3,19 @@ body {
     padding: 0;
     margin: 0;
 }
+.WhatWeDo{
+    opacity: 0;
+    filter: blur(6px);
+    transition: all .3s;
+    transform: translateY(100%)
+}
 
 
 .service {
     opacity: 0;
-    filter: blur(5px);
-    transition: all .5s;
-    transform: translateY(100%)
+    filter: blur(7px);
+    transition: all .4s;
+    transform: translateX(-100%)
 }
 
 .service:nth-child(1) {
@@ -31,8 +37,8 @@ body {
 .card {
     opacity: 0;
     filter: blur(5px);
-    transition: all .5s;
-    transform: translateY(100%)
+    transition: all .3s;
+    transform: translateX(-100%)
 }
 
 .card:nth-child(1) {
