@@ -6,8 +6,8 @@ body {
 .WhatWeDo{
     opacity: 0;
     filter: blur(6px);
-    transition: all .3s;
-    transform: translateY(100%)
+    transition: all .5s;
+    transform: translateX(-100%)
 }
 
 
