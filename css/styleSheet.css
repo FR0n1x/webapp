@@ -166,8 +166,8 @@ button {
     background-size: cover; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content:first baseline;
+    align-items:center;
     color: white;
     height: 100%;
 }
