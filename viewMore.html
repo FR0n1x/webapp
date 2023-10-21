@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/viewMore.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script src="js/jquery.hislide.js"></script>
+    
     <title>Preferences</title>
 </head>
 
@@ -37,17 +41,37 @@
 
 
 
-        <div class="viewMore-img">
-            <img src="images/house-1.png">
+        <div class="slide hi-slide">
+            <div class="hi-prev"></div>
+            <div class="hi-next"></div>
+
+            <ul>
+                <li><img src="images/house-2.png"></li>
+                <li><img src="images/house-3.png"></li>
+                <li><img src="images/house-4.png"></li>
+                <li><img src="images/house-5.png"></li>
+                <li><img src="images/house-2.png"></li>
+                <li><img src="images/house-3.png"></li>
+                <li><img src="images/house-4.png"></li>
+                <li><img src="images/house-5.png"></li>
+            </ul>
 
         </div>
 
 
         <div class="viewMore-info">
 
+            <!-- left  -->
             <div class="viewMore-info-cont">
 
+
+                <!-- price and stuff -->
+
                 <div class="viewMore-info-left-cont1">
+
+
+                    <!-- --------------------------------- -->
+
 
                     <div class="viewMore-info-text">
                         <h1>Overview & discription</h1>
@@ -79,11 +103,40 @@
                 </div>
 
 
+                <!-- Interior -->
+                <div class="viewMore-info-left-cont1">
+
+                    <div class="viewMore-info-text">
+                        <h1>Interior</h1>
+                    </div>
+
+                    <div class="viewMore-info-left-cont1-icons">
+                        <div class="moreInfo-box">
+                            <p>Living Area</p>
+                            <p>0 Bedrooms</p>
+                        </div>
+                        <div class="moreInfo-box">
+                            <img src="images/bathroom.png" class="viewMore-icons">
+                            <p>0 Bedrooms</p>
+                        </div>
+                        <div class="moreInfo-box">
+                            <img src="images/measurement.png" class="viewMore-icons">
+                            <p>0 Bedrooms</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
 
 
 
 
             </div>
+
+<!-- ------------------------ -->
+<!-- right -->
 
             <div class="viewMore-info-cont">
 
@@ -102,12 +155,7 @@
 
                         <div class="contactSeller">
                                 <img src="images/phone.png" class="viewMore-icons">
-                                <button>Call</button>
-                        </div>
-
-                        <div class="contactSeller">
-                            <img src="images/chat.png" class="viewMore-icons">
-                            <button>Message</button>
+                            <p>07x-x-xxx-xxx</p>
                         </div>
 
                     </div>
@@ -142,7 +190,9 @@
 
 
 
-
+    <script>
+        $('.slide').hiSlide();
+    </script>
 
 
 
