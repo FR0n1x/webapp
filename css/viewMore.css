@@ -90,14 +90,6 @@ body {
     background-color: rgb(14, 14, 14);
 }
 
-/* 
- * jquery.hislide.min.css
- * Date: 2017-02-15
- * Version: v1.0.0
- * Author: Cphayim
- * Site: https://cphayim.me 
-*/
-
 .hi-slide {
     position: relative;
     width: 754px;
@@ -116,8 +108,8 @@ body {
     line-height: 80px;
     text-align: center;
     cursor: pointer;
-    background-color: #666;
-    color: #fff;
+    /* background-color: #666; */
+    color: #ffd24d;
     opacity: .7;
     transition: all .6s;
     font-size: 30px
@@ -164,7 +156,7 @@ body {
     height: 0;
     margin: 0;
     padding: 0;
-    border: 2px solid #fff;
+    border: none;
     border-radius: 5px;
     background-color: #333;
     cursor: pointer
