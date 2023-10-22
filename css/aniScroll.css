@@ -3,11 +3,26 @@ body {
     padding: 0;
     margin: 0;
 }
-.WhatWeDo{
+
+.WhatWeDo {
     opacity: 0;
     filter: blur(6px);
     transition: all .5s;
     transform: translateX(-100%)
+}
+
+.AboutUsCont-img {
+    opacity: 0;
+    filter: blur(6px);
+    transition: all .5s;
+    transform: translateX(-50%)
+}
+
+.AboutUsCont-body {
+    opacity: 0;
+    filter: blur(6px);
+    transition: all .5s;
+    transform: translateX(40%)
 }
 
 
