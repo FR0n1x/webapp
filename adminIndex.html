@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/adminIndex.css">
-    <title>Admin Index</title>
+    <title>Admin Dashboard</title>
 </head>
-<body>
+<body>    
+
+
+  
     <nav>
         <div class="logo">
             <img src="images/logo.png" alt="">
@@ -20,11 +23,11 @@
     <div class="body">
         <div class="SideContainer">
             <div class="ElementContainer">
-                <a href="#">
+                <a href="AdminIndex">
                     <img src="images/icon/Legal.png" alt="">
                     Dashboard
                 </a>
-                <a href="#">
+                <a href="AdminUserDetails">
                     <img src="images/icon/Legal.png" alt="">
                     All Users
                 </a>
@@ -32,17 +35,29 @@
                     <img src="images/icon/Legal.png" alt="">
                     Properties
                 </a>
-                <a href="#">
+                <a href="AdminContactDetails">
                     <img src="images/icon/Legal.png" alt="">
-                    Feedback
+                    Contact Details
                 </a>
                 <a href="#">
                     <img src="images/icon/Legal.png" alt="">
-                    About and Contact Details
+                    About Details
                 </a>
+                <div class="feedback">
+                	<img src="images/icon/Legal.png" alt="">
+                	<p>Feedback</p>
+                	<div>
+	                	<a href="AdminFeedbackReg">
+		                    Registered User
+		                </a>
+		                <a href="AdminFeedback">	                    
+		                    Unregistered user
+		                </a>
+	                </div>                    
+                </div>
             </div>
         </div>
-    
+	
         <div class="MainContainer">
             <div class="dashboard">
                 <div class="welcomeText">
@@ -58,7 +73,7 @@
                             Registered Users
                         </div>
                         <div class="count">
-                            5
+                            <%= UserCount %>
                         </div>
                     </div>
                     <div class="Card">
@@ -69,7 +84,7 @@
                             Listed Properties
                         </div>
                         <div class="count">
-                            5
+                            0
                         </div>
                     </div>
                     <div class="Card">
@@ -80,13 +95,12 @@
                             Active Properties
                         </div>
                         <div class="count">
-                            5
+                            0
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 </body>
 </html>
