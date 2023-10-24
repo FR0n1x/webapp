@@ -5,7 +5,9 @@ body {
     background-color: var(--color-grey);
 
 }
-
+.contact p{
+    color: #fff;
+}
 :root {
     --color-primary: #ffd24d;
     --color-white: #1f1f1f;
@@ -35,9 +37,9 @@ body {
 
 }
 
-img {
-    margin-left: 30px;
-    width: 100%;
+.contact img {
+    
+    width: 180%;
     display: block;
     object-fit: cover;
 }
@@ -72,15 +74,14 @@ section h2 {
 /* =================ASIDE============== */
 
 .contact_aside {
+    display: flex;
+    align-items: center;
     background: var(--color-primary);
-    padding: 3rem;
-    border-radius: 1rem;
+    border-radius: 15px;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
-    position: relative;
-    bottom: 10rem;
 
 }
 
